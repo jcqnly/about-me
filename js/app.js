@@ -13,7 +13,7 @@ if (answer1 === 'yes' || answer1 === 'y') {
 } else {
   alert('Read the directions, organ sack.  Let\'s move on.');
 }
-console.log('The first question asks whether or not Bender is a robot. He is.');
+console.log('The first question asks whether or not Bender is a robot. The user responded with ' + answer1 + '.');
 
 var answer2 = prompt('Next question! Do I have an evil twin?').toLowerCase().trim();
 
@@ -24,7 +24,7 @@ if (answer2 === 'yes' || answer2 === 'y'){
 } else {
   alert('Can\'t you coffin-stuffers read directions?');
 }
-console.log('The second question asks if Bender has an evil twin. Bender is the more evil one according to the Robot Devil.');
+console.log('The second question asks if Bender has an evil twin. The user responded with ' + answer2 + '.');
 
 var answer3 = prompt('Alrighty.  Was I made in Mexico?').toLowerCase().trim();
 
@@ -35,7 +35,7 @@ if(answer3 === 'yes' || answer3 === 'y'){
 } else {
   alert('Duly noted.  Directions are not your forte.');
 }
-console.log('The third question asks where Bender was made.  Bender was manufactured in Tijuana, Mexico.');
+console.log('The third question asks where Bender was made. The user responded with ' + answer3 + '.');
 
 var answer4 = prompt('My cooking is the best, right?!').toLowerCase().trim();
 
@@ -46,7 +46,7 @@ if(answer4 === 'yes' || answer4 === 'y'){
 } else {
   alert('Follow the directions, fleshrod!');
 }
-console.log('The fourth question asks about Bender\'s cooking.  It\'s terrible according to an episode, but he thinks it\'s great.');
+console.log('The fourth question asks about Bender\'s cooking. The user responded with ' + answer4 + '.');
 
 var answer5 = prompt('Do I have kids?').toLowerCase().trim();
 
@@ -57,4 +57,4 @@ if(answer5 === 'yes' || answer5 === 'y'){
 } else {
   alert('Thank goodness this is over!  You\'re tearing me apart, ' + userName + '!');
 }
-console.log('The fifth question asks if he has kids.  He has 2.  Bender is not a very good father figure, sadly.');
+console.log('The fifth question asks if he has kids. The user responded with ' + answer5 + '.');
