@@ -1,6 +1,6 @@
 *{
-  color: rgb(196, 212, 226);
-  background-color: rgb(34, 39, 100);
+  color: rgb(228, 234, 240);
+  background-color: rgb(53, 62, 155);
   font-family: 'Rammetto One', cursive;
 }
 
@@ -14,9 +14,12 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
 }
 
 h2{
   text-align: center;
+}
+
+ul{
+  padding: 50px;
 }
